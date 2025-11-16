@@ -1,0 +1,7 @@
+Test Execution Summary
+======================
+Generated: Sun Nov 16 18:45:09 GMT 2025
+
+To view HTML reports, open: reports/surefire-reports/index.html
+XML reports are available in: reports/surefire-reports/
+
