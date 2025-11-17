@@ -39,3 +39,9 @@ karate-html-reports/
 # Test reports (we track reports/ directory)
 # reports/ directory is tracked for sharing test results
 
+# Local configuration files with actual credentials (DO NOT COMMIT)
+**/config/*.local.js
+**/config/*.local.feature
+*.local.js
+*.local.feature
+

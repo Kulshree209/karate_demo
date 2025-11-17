@@ -3,7 +3,13 @@ function fn() {
   var env = karate.env || 'dev'; // default to 'dev' environment
   
   // Load configuration from config files
-  var apiConfig = karate.read('classpath:config/api-config.js')();
+  // Try to load local config first (for actual credentials), fallback to default
+  var apiConfig;
+  try {
+    apiConfig = karate.read('classpath:config/api-config.local.js')();
+  } catch (e) {
+    apiConfig = karate.read('classpath:config/api-config.js')();
+  }
   var dbConfig = karate.read('classpath:config/db-config.js')();
   
   var config = {

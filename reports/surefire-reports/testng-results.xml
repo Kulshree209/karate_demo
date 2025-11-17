@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-17T11:48:47 GMT" name="Surefire suite" finished-at="2025-11-17T11:48:56 GMT" duration-ms="9162">
+  <suite started-at="2025-11-17T13:18:12 GMT" name="Surefire suite" finished-at="2025-11-17T13:18:24 GMT" duration-ms="11437">
     <groups>
     </groups>
-    <test started-at="2025-11-17T11:48:47 GMT" name="Surefire test" finished-at="2025-11-17T11:48:56 GMT" duration-ms="9162">
+    <test started-at="2025-11-17T13:18:12 GMT" name="Surefire test" finished-at="2025-11-17T13:18:24 GMT" duration-ms="11437">
       <class name="com.example.karate.TestRunner">
-        <test-method signature="testApiSchemaValidation()[pri:0, instance:com.example.karate.TestRunner@8909f18]" started-at="2025-11-17T11:48:47 GMT" name="testApiSchemaValidation" finished-at="2025-11-17T11:48:56 GMT" duration-ms="9103" status="PASS">
+        <test-method signature="testMastercardLocationsMatches()[pri:0, instance:com.example.karate.TestRunner@78dd667e]" started-at="2025-11-17T13:18:12 GMT" name="testMastercardLocationsMatches" finished-at="2025-11-17T13:18:24 GMT" duration-ms="11379" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testApiSchemaValidation -->
+        </test-method> <!-- testMastercardLocationsMatches -->
       </class> <!-- com.example.karate.TestRunner -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

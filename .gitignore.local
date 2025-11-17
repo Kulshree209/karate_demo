@@ -1,0 +1,7 @@
+# Local Configuration Override
+# This file should NOT be committed to git
+# Use this file to override api-config.js with your actual credentials
+
+# Copy api-config.js to api-config.local.js and update with real credentials
+# Then update karate-config.js to load api-config.local.js if it exists
+
