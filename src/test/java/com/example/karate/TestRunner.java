@@ -64,4 +64,12 @@ public class TestRunner {
                 .parallel(1);
         assertEquals(results.getFailCount(), 0, results.getErrorMessages());
     }
+    
+    @Test
+    public void testMastercardLocationsMatches() {
+        Results results = Runner.path("classpath:api/mastercard-locations-matches.feature")
+                .tags("@mastercard", "@locations", "@matches")
+                .parallel(1);
+        assertEquals(results.getFailCount(), 0, results.getErrorMessages());
+    }
 }

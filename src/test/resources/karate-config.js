@@ -16,6 +16,10 @@ function fn() {
     password: apiConfig.password,
     authHeader: 'Bearer ' + apiConfig.apiToken,
     timeout: apiConfig.timeout,
+    // Mastercard API Gateway OAuth 1.0 Configuration
+    mastercardBaseUrl: apiConfig.mastercardBaseUrl,
+    mastercardConsumerKey: apiConfig.mastercardConsumerKey,
+    mastercardPrivateKey: apiConfig.mastercardPrivateKey,
     // Database Configuration from config file
     dbUrl: dbConfig.dbUrl,
     dbUsername: dbConfig.dbUsername,
