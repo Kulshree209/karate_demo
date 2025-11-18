@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-17T13:18:12 GMT" name="Surefire suite" finished-at="2025-11-17T13:18:24 GMT" duration-ms="11437">
+  <suite started-at="2025-11-17T13:50:36 GMT" name="Surefire suite" finished-at="2025-11-17T13:50:51 GMT" duration-ms="15001">
     <groups>
     </groups>
-    <test started-at="2025-11-17T13:18:12 GMT" name="Surefire test" finished-at="2025-11-17T13:18:24 GMT" duration-ms="11437">
+    <test started-at="2025-11-17T13:50:36 GMT" name="Surefire test" finished-at="2025-11-17T13:50:51 GMT" duration-ms="15001">
       <class name="com.example.karate.TestRunner">
-        <test-method signature="testMastercardLocationsMatches()[pri:0, instance:com.example.karate.TestRunner@78dd667e]" started-at="2025-11-17T13:18:12 GMT" name="testMastercardLocationsMatches" finished-at="2025-11-17T13:18:24 GMT" duration-ms="11379" status="PASS">
+        <test-method signature="testMastercardLocationsMatches()[pri:0, instance:com.example.karate.TestRunner@78dd667e]" started-at="2025-11-17T13:50:36 GMT" name="testMastercardLocationsMatches" finished-at="2025-11-17T13:50:51 GMT" duration-ms="14939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMastercardLocationsMatches -->

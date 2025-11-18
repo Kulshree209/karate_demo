@@ -21,6 +21,24 @@
             </class>
         </classes>
     </test>
+    <test name="Mastercard API Tests">
+        <classes>
+            <class name="com.example.karate.TestRunner">
+                <methods>
+                    <include name="testMastercardLocationsMatches"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Reltio API Tests">
+        <classes>
+            <class name="com.example.karate.TestRunner">
+                <methods>
+                    <include name="testReltioEntities"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
     <test name="All Tests">
         <classes>
             <class name="com.example.karate.TestRunner">

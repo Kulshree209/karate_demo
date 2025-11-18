@@ -72,4 +72,12 @@ public class TestRunner {
                 .parallel(1);
         assertEquals(results.getFailCount(), 0, results.getErrorMessages());
     }
+    
+    @Test
+    public void testReltioEntities() {
+        Results results = Runner.path("classpath:api/reltio-entities.feature")
+                .tags("@reltio", "@entities")
+                .parallel(1);
+        assertEquals(results.getFailCount(), 0, results.getErrorMessages());
+    }
 }

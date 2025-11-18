@@ -26,6 +26,12 @@ function fn() {
     mastercardBaseUrl: apiConfig.mastercardBaseUrl,
     mastercardConsumerKey: apiConfig.mastercardConsumerKey,
     mastercardPrivateKey: apiConfig.mastercardPrivateKey,
+    // Reltio API Configuration
+    reltioBaseUrl: apiConfig.reltioBaseUrl,
+    reltioAuthUrl: apiConfig.reltioAuthUrl,
+    reltioUserId: apiConfig.reltioUserId,
+    reltioPassword: apiConfig.reltioPassword,
+    reltioTenantId: apiConfig.reltioTenantId,
     // Database Configuration from config file
     dbUrl: dbConfig.dbUrl,
     dbUsername: dbConfig.dbUsername,
